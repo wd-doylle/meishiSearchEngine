@@ -253,7 +253,7 @@ meishiSearchEngine/
 
 ```
 http://<host>:<port>/
-                admin/      #
+                admin/      #管理
                 /           #主页
                 s/          #文字搜索
                 s/bl/       #高级搜索
