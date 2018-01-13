@@ -41,6 +41,17 @@
 
 ---
 
+## 小组分工
+网页爬虫：韩宇杰
+
+索引创建与搜索：陈鸿滨
+
+图像搜索：柴峥豪
+
+WEB：王多
+
+---
+
 ## 网页爬虫
 
 
@@ -224,7 +235,7 @@ $ pip install django
 ```
 ### 2.运行应用
 ```
-$ cd meishiSearch
+$ cd meishiSearchEngine
 $ python manage.py runserver <port>
 ```
 ### 3.应用布局
