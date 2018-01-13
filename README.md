@@ -1,5 +1,7 @@
 # 美食搜索
 
+完整报告：https://www.zybuluo.com/wdUnicorn/note/1017849
+
 ---
 
 ## 功能特征
