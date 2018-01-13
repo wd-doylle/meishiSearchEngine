@@ -1,0 +1,111 @@
+/* Hover Translation CSS. Note: Only use single quote because this file will be crunched to HoverTranslation javascript file*/
+#ht_pop {
+    overflow: auto;
+    position: absolute;
+    display: none;
+    background: white;
+    z-index: 99999;
+}
+
+.hts_pop {
+    width: 295px;
+    font-size: 13px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px #E0E0E0;
+}
+
+    .hts_pop #ht_content {
+        margin: 15px 15px 0px;
+        padding-bottom: 10px;
+        overflow: hidden;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    * html .hts_pop #ht_content {
+        height: expression((this.childNodes.length && this.childNodes[0].offsetHeight > 272 ) ? '272px' : 'auto');
+    }
+
+        .hts_pop #ht_content div {
+            width: 265px;
+            max-height: 275px;
+            overflow: hidden;
+        }
+
+    .hts_pop h4 {
+        margin: 0 5px 6px 0;
+        padding: 0;
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+        line-height: 24px;
+        word-break: break-all;
+        color: #444444;
+    }
+
+    .hts_pop ul {
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+        color: #444444;
+    }
+
+        .hts_pop ul li {
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+            line-height: 21px;
+            list-style-type: none;
+        }
+
+    .hts_pop .ht_attr {
+        _font-family: Lucida Sans Unicode,sans-serif;
+        line-height: 24px;
+        color: #737373;
+        vertical-align:top;
+    }
+
+#ht_logo {
+    background: url('/fd/s/cn/dict_logo_ht.png') center no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: -3px;
+}
+
+#ht_footer {
+    height: 30px;
+    margin: 0 12px;
+    line-height: 30px;
+}
+
+    #ht_footer a {
+        display: inline-block;
+        margin-left: 2px;
+    }
+
+i {
+    font-style: normal;
+}
+
+.hts_pop .ht_trs {
+    margin-left: 10px;
+}
+
+.hts_pop .ht_close {
+    float: right;
+    margin-right: 3px;
+    vertical-align: top;
+}
+
+.hts_pop .ht_more {
+    display: block;
+}
+
+.hover_target {
+    background: #a7d8ff;
+}
+
+/* Hide download link*/
+#ht_footer > #ht_logo, #ht_footer > .ht_download {
+    display: none;
+}
