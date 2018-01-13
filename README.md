@@ -1,6 +1,5 @@
-# 美食搜索
-
-完整报告：https://www.zybuluo.com/wdUnicorn/note/1017849
+﻿# 美食搜索
+![](https://raw.githubusercontent.com/wd-doylle/storage/master/homePage.png)
 
 ---
 
@@ -16,19 +15,18 @@
 > * 口味 
 > * 食材
 
-![](https://www.zybuluo.com/static/img/logo.png)
 ### 2. 食材小知识
 
 根据搜索内容的推荐
 
-![](https://www.zybuluo.com/static/img/logo.png)
+![](https://raw.githubusercontent.com/wd-doylle/storage/master/search.png)
 
 ### 3. 图片搜索
 支持的搜索方式：
 > * 本地上传图片
 > * 图片URL
 
-![](https://www.zybuluo.com/static/img/logo.png)
+![](https://raw.githubusercontent.com/wd-doylle/storage/master/imgSearch.png)
 
 ### 4. 高级搜索 
 命令语法：
@@ -37,7 +35,7 @@
 ```
 用户可以直接输入搜索命令，也可通过`s/bl/`指定高级搜索
 
-![](https://www.zybuluo.com/static/img/logo.png)
+![](https://raw.githubusercontent.com/wd-doylle/storage/master/booleanSearch.png)
 
 ---
 
